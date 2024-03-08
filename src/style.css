@@ -107,6 +107,7 @@ header{
 header > h2 {
     font-size: 30px;
     color: yellow;
+    text-shadow: 1px 2px white;
     
 }
 
@@ -122,12 +123,13 @@ nav > a{
 }
 
 a:hover{
-    color: white;
+    color:  gray;
 }
+
 
 section{
     
-    height: 600px;
+    height: 500px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -165,14 +167,16 @@ button {
     
   }
 
+  button:hover{
+    color: gray;
+  }
+
   section > img {
    
         width: 300px;
         justify-content: center;
-        align-items: flex-end;
-        border: 10px solid black;
-        border-radius: 500px;
-        border-style: dashed;
+        align-items: flex-end; 
+        border: 12px outset yellow;
         margin-left: 50px;
         margin-top: 100px;
         margin-bottom: 100px;
@@ -180,30 +184,77 @@ button {
   }
 article{
     
-    height: 300px;
+    height:500px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: black;
-    border: 1px solid white;
+}
+
+.about{
+    justify-items: center;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 60px;
+    text-shadow: 2px 3px yellow;
+}
+
+.text{
+    margin-bottom: 100px;
+    color: yellow;
+    text-align: center;
+   
 }
 
 aside{
     
-    height: 600px;
+    height: 300px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background-color:whitesmoke;
-    border: 1px solid white;
+    background-color:white;
+}
+
+.skills{
+    justify-items: center;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    text-shadow: 2px 3px yellow;
+}
+
+h1 > img{
+    width: 50px;
+    height: 50px;
+}
+
+.imagens > img{
+    width: 100px;
+    margin: 0px 100px 10px 0px;
+    margin-top: 80px;
 }
 
 footer{
     width: 100%;
     height: 200px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
     background-color: black;
     border: 1px solid white;
+}
+
+.container > img{
+    width: 30px;
+    height: 30px;
+}
+
+.finish > p{
+    
+    color: yellow;
+    font-size: 10px;
 }
