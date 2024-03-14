@@ -133,26 +133,31 @@ article{
 
 .about > h1 {
     font-size: 50px;
+    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     
 }
-
 
 .about{
     
     justify-items: center;
     text-align: center;
     font-size: #171810;
-    margin-bottom: 50px;
+   
+    padding-bottom: 80px;
     text-shadow: 2px 3px white;
 }
 
-.text{
 
-    margin-bottom: 100px;
-    text-align: center;
-    font-size: 18px;
-   
+
+
+
+.colunas {
+    column-count: 2; /* Define o número de colunas */
+    column-gap: 50px; /* Define o espaçamento entre as colunas */
 }
+
 
 aside{
     
