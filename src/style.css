@@ -1,8 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 
-
-
  * {
     margin: 0;
     padding: 0;
@@ -12,6 +10,7 @@
 
 
 body{
+    width: 100%;
     background-color:#171810;
 
 }
@@ -22,8 +21,6 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:#171810;
-    border: 1px solid black;
     gap: 8px;
     
 }
@@ -63,9 +60,9 @@ section{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:whitesmoke;
-    border: 1px solid white;
     overflow: hidden;
+    color: white;
+   
 
 }
 
@@ -80,35 +77,29 @@ p{
 }
 
 button {
-    background: black;
+    background: white;
     font-family: Kode Mono;
     font-weight: 700;
     font-size: 15px;
     border-radius: 30px;
     box-shadow: 3px 3px gray;
     padding: 10px;
-    display: 1;
     justify-content: center;
     align-items: center;
     margin-top: 9px;
-    flex-direction: column;
-    color: white;
+    color: black;
     
   }
 
   button:hover{
         background-color: black;
         color: gray;
-
   }
 
   section > img {
    
         width: 450px;
         height: 450px;
-        border: 12px solid black;
-        border-radius: 500px;
-        border-style: dashed;
         margin-left: 50px;
         margin-top: 100px;
         margin-bottom: 100px;
@@ -125,13 +116,11 @@ button {
 
   
 article{
-
-    height:500px;
+    
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    background-color: #171810;
     padding-bottom: 15px;
 }
 
@@ -161,8 +150,6 @@ aside{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    background-color:#171810;
-
     }
 
 aside > h1{
@@ -186,6 +173,7 @@ img {
   }
   
   .wrapper {
+    margin-top: 150px;
     width: 62.5rem;
     display: flex;
     gap: 50px;
@@ -215,8 +203,7 @@ footer{
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background-color: #171810;
-    
+
 }
 
 .container > img{
@@ -233,34 +220,30 @@ footer{
 
     header{
         width:100%;
-        height: 150px; 
+        height: 100px; 
         display: flex;
-        justify-content: space-around;
+        justify-self: start;
         align-items: center;
-        background-color:#171810;
-        border: 1px solid black;
-        gap: 5px;
+        gap: 2px;
     }
-
 
     header > nav {
         display: flex;
-        justify-content: center;
-        flex-direction: column;
+        justify-content: flex-start;
         gap: 8px;
     }
 
     nav > a {
-        font-size: 15px;
-        color:#FFDE59;
+        font-size: 12px;
+        color:white;
     }
 
     a:hover{
-        color:  white;
+        color:  gray;
     }
 
     header > h2 {
-        font-size: 16px;
+        font-size: 20px;
         color: white;
         text-shadow: none;
     }
@@ -273,7 +256,6 @@ footer{
     }
 
     span{
-
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -287,84 +269,97 @@ footer{
         font-size: 35px;
     }
 
-    button:hover{
-        background-color: black;
-        color: #FFDE59;
+    button {
+        background: white;
+        font-family: Kode Mono;
+        font-weight: 700;
+        font-size: 15px;
+        border-radius: 30px;
+        box-shadow: 3px 3px gray;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 9px;
+        color: black;
+        
+      }
 
+      button:hover{
+        background-color: black;
+        color: gray;
   }
 
     section > img {
-        width: 250px;
+        width: 450px;
+        height: 450px;
                   
     }
 
     article{
-    
-        height: 500px;
-        background-color: #FFDE59;
-        border: 1px solid burlywood;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        padding-bottom: 60px;
     }
 
     article > h1 {
-        font-size: 25px;
-        margin-top: 150px;
-        padding-bottom: 10px;
-        justify-items: center;
-        text-align: center;
-        font-size: #171810;
-        text-shadow: 2px 3px white;
+        padding-left: 10px;
+        font-size: 40px;
+        margin-top: 20px;
+        padding-bottom: 1px;
+        color: white;
+        text-shadow: 2px 3px gray;
     }
 
-    .colunas {
-        column-count: 2; /* Define o número de colunas */
-        column-gap: 50px; /* Define o espaçamento entre as colunas */
-        font-size: 11px;
-        padding-bottom: 30px;
-        margin-bottom: 200px;
-        
+    .colunas{
+        padding: 0;
+        margin: 0;
     }
 
-    aside{
-        height: 600px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color:white;
-    }
+
 
     aside > h1{
-        font-size: 25px;
-        margin-top: 10px;
-        padding-bottom: 10px;
-        justify-items:center;
-        text-align: center;
-        font-size: #171810;
-        text-shadow: 2px 3px #FFDE59;
-
+        padding-left: 10px;
+        font-size: 40px;
+        margin-top: 20px;
+        padding-bottom: 1px;
+        color: white;
+        text-shadow: 2px 3px gray;
     }
 
-    aside > imagens {
+    .brands-list {
+        overflow: hidden;
+        align-self: center;
+      }
+      
+      .wrapper {
+        margin-top: 150px;
+        width: 62.5rem;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        column-gap: 10px;
-        column-count: 2;
-    }
-
+        gap: 50px;
+        grid-auto-columns: 15rem;
+        animation: scroll 10s linear infinite;
+        
+      }
+      
+      
+      @keyframes scroll {
+        to {
+          translate: calc(-4 * 15rem);
+        }
+      }
       footer{
         height: 200px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
-        background-color: black;
-        border: 1px solid white;
-    }
+      }
 
     .finish > p{ 
-        color: #FFDE59;
+        color: white;
         font-size: 10px;
     }
 }
